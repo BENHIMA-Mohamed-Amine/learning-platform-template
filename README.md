@@ -112,3 +112,8 @@ Création d'une API avec Express, MongoDB et Redis pour effectuer des opération
 ### Question: Quelle est la meilleure façon de gérer le démarrage de l'application ?
 
 **Réponse** : La meilleure méthode consiste à décomposer le processus de démarrage en fonctions modulaires, puis à les exécuter séquentiellement dans le fichier principal (par exemple, `app.js`). Cela améliore la lisibilité et la maintenabilité du code. Il est également crucial de gérer les erreurs correctement et de suivre les bonnes pratiques pour les connexions aux bases de données.
+
+## Captures d'écran
+
+Voici une capture d'écran montrant la fonctionnalité pour récupérer les cours. Il est possible d'ajouter, de modifier et de supprimer des cours. De même, toutes les opérations CRUD sont disponibles pour les étudiants.  
+![Structure de projet image](imgs/image.png)
